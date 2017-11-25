@@ -19,6 +19,7 @@ public class usoCirculo {
         // TODO code application logic here
         Circulo c1=new Circulo(20);
         Circulo c2=new Circulo(30);
+        Circulo c3=new Circulo(18);
         double a1,a2;
         a1=c1.calculararea();
         a2=c2.calculararea();

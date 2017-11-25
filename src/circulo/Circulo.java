@@ -15,21 +15,39 @@ public class Circulo {
    private double radio;
    private double pi;
    
-   public Circulo()
+    /**
+     *
+     */
+    public Circulo()
    {
        radio=0;
        pi=3.1416;
     }
-   public Circulo(double radio)
+
+    /**
+     *
+     * @param radio
+     */
+    public Circulo(double radio)
    {
    this.radio=radio;
    pi=3.1416;
    }
-   public double calculararea()
+
+    /**
+     *
+     * @return
+     */
+    public double calculararea()
    {
        return pi*Math.pow(radio,2);
    }
-   @Override
+
+    /**
+     *
+     * @return
+     */
+    @Override
    public String toString()
            {
     return "circunferancia con radio ="+radio+"\npi:"+pi;
